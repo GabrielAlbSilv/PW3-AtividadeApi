@@ -5,11 +5,11 @@ ela é preciso seguir alguns processos
 
 	1ºPasso: Cole a pasta PW3-AtividadeApi em C:\xampp\htdocs
 	2ºPasso: Abra o xampp, ative o servidor Apache 
-	3ºPasso: Vá em php MyAdmin e execute o script do banco de dados (presente na pasta da api)
-	4ºPasso: Crie um usário e uma senha (ambos com base nos usuário e senha presentes nos arquivos
-	da api)
-	5ºPasso: Vá na pásta da api e em 'Constants' altere o ip inserido para o ip da sua máquina, salve
+	3ºPasso: Vá em php MyAdmin e execute o script do banco de dados (presente na pasta da Api)
+	4ºPasso: Crie um usário e uma senha (ambos com base no usuário e senha presente nos arquivos
+	da Api)
+	5ºPasso: Vá na pAsta da Api e em 'Constants' altere o ip inserido para o ip da sua máquina, salve
 	as modificações
-	6ºPasso: em seu navegador, insira o link
+	6ºPasso: Em seu navegador, insira o link:
 		(ip da sua máquina)/PW3-AtividadeApi/v1/Api.php?apicall=getpao
 	7ºPasso: Pronto :)
