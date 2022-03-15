@@ -59,7 +59,7 @@
 					$response['message'] = 'Pão adicionado com sucesso';
 
 					
-					$response['heroes'] = $db->getpao();
+					$response['paes'] = $db->getpao();
 				}else{
 
 					
@@ -76,7 +76,7 @@
 				$db = new DbOperation();
 				$response['error'] = false; 
 				$response['message'] = 'Pedido concluído com sucesso';
-				$response['heroes'] = $db->getpao();
+				$response['paes'] = $db->getpao();
 			break; 
 			
 			
@@ -84,7 +84,7 @@
 			case 'updatepao':
 				isTheseParametersAvailable(array('id','nome','sabor','preco','padaria'));
 				$db = new DbOperation();
-				$result = $db->updateHero(
+				$result = $db->updatepao(
 					$_POST['id'],
 					$_POST['nome'],
 					$_POST['sabor'],
@@ -95,7 +95,7 @@
 				if($result){
 					$response['error'] = false; 
 					$response['message'] = 'Pão atualizado com sucesso';
-					$response['heroes'] = $db->getpao();
+					$response['paes'] = $db->getpao();
 				}else{
 					$response['error'] = true; 
 					$response['message'] = 'Algum erro ocorreu por favor tente novamente';

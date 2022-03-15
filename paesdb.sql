@@ -15,7 +15,9 @@ CREATE TABLE `Paes` (
 
 INSERT INTO `Paes` (`id`, `nome`, `sabor`, `preco`, `padaria`)
 VALUES (1, 'Pão Francês', 'Salgado', 'R$ 00,30', 'Sr Euclides'),
-(2, 'Pão Doce', 'Doce', 'R$ 1,00', 'Padaria Estrada Nova');
+(2, 'Pão de Açúcar', 'Doce', 'R$ 1,00', 'Padaria Estrada Nova'),
+(3, 'AAAAAAA', 'Salgado', 'R$ 00,30', 'Sr Euclides')
+;
 
 ALTER TABLE `Paes`
   ADD PRIMARY KEY (`id`);
